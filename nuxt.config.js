@@ -5,6 +5,10 @@ const StoryblokToken = '***REMOVED***'
 
 module.exports = {
   mode: 'spa',
+  server: {
+    port: process.env.PORT || 3000,
+    host: '0.0.0.0'
+  },
   modules: [
     ['storyblok-nuxt', {accessToken: StoryblokToken, cacheProvider: 'memory'}]
   ],
