@@ -4,7 +4,7 @@
   "description": "Nuxt.js project",
   "author": "Alexander Feiglstorfer <delooks@gmail.com>",
   "private": true,
-  "engines":{
+  "engines": {
     "node": "14.x"
   },
   "scripts": {
