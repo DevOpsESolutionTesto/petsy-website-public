@@ -13,3 +13,4 @@ dist
 deploy
 gulpfile.js
 token.js
+.idea
