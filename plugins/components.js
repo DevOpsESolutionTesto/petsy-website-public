@@ -24,6 +24,8 @@ import Article from '~/components/Article.vue'
 import ArticleOverview from '~/components/ArticleOverview.vue'
 import HeaderInColumns from '~/components/HeaderInColumns.vue'
 import Markdown from '~/components/Markdown.vue'
+import DisplayForm from '~/components/DisplayForm.vue'
+import {Form} from 'vue-formio'
 
 Vue.component('blok-page', Page)
 Vue.component('blok-call-to-action', CallToAction)
@@ -49,4 +51,6 @@ Vue.component('blok-nav', Nav)
 Vue.component('blok-article', Article)
 Vue.component('blok-article-overview', ArticleOverview)
 Vue.component('blok-header-in-columns', HeaderInColumns)
+Vue.component('blok-displayform', DisplayForm)
+Vue.component('formio', Form)
 Vue.component('markdown', Markdown)

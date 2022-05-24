@@ -5,6 +5,8 @@
 </template>
 
 <script>
+import {Formio} from 'vue-formio'
+
 const loadData = function({api, cacheVersion, errorCallback, version, path}) {
   return api.get(`cdn/stories/${path}`, {
     version: version,

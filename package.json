@@ -20,7 +20,8 @@
     "hoek": "^4.2.1",
     "marked": "^0.3.12",
     "nuxt": "^2.2.0",
-    "storyblok-nuxt": "^1.0.1"
+    "storyblok-nuxt": "^1.0.1",
+    "vue-formio": "^4.0.8"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
