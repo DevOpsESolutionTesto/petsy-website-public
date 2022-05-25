@@ -25,6 +25,7 @@ import ArticleOverview from '~/components/ArticleOverview.vue'
 import HeaderInColumns from '~/components/HeaderInColumns.vue'
 import Markdown from '~/components/Markdown.vue'
 import DisplayForm from '~/components/DisplayForm.vue'
+import TestoCodeComponent from '~/components/TestoCodeComponent.vue'
 import {Form} from 'vue-formio'
 
 Vue.component('blok-page', Page)
@@ -52,5 +53,6 @@ Vue.component('blok-article', Article)
 Vue.component('blok-article-overview', ArticleOverview)
 Vue.component('blok-header-in-columns', HeaderInColumns)
 Vue.component('blok-displayform', DisplayForm)
+Vue.component('blok-testo-code-component', TestoCodeComponent)
 Vue.component('formio', Form)
 Vue.component('markdown', Markdown)
