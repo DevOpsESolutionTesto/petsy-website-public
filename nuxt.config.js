@@ -1,7 +1,7 @@
 const StoryblokClient = require('storyblok-js-client')
 
 // !!! Change to your Storyblok preview token
-const StoryblokToken = '***REMOVED***'
+const StoryblokToken = 'TOKEN'
 
 module.exports = {
   mode: 'spa',
